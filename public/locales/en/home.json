@@ -1,0 +1,47 @@
+{
+    "hero": {
+        "title": "Redesign your business with digital innovation",
+        "subtitle": "First, we simplify your processes.<br/>Then, we accelerate decision-making.<br/>Finally, we enable your organization with artificial intelligence.<br/><br/>We don’t transform businesses with complex technology —<br/>we transform them with clarity, speed, and intelligence.",
+        "cta": "Explore Our Services"
+    },
+    "approach": {
+        "title": "The SimplifAI Approach",
+        "cards": [
+            {
+                "id": "simplify",
+                "title": "Simplify",
+                "subtitle": "Process & Decision Clarity",
+                "description": "AI cannot operate on complexity. We simplify processes, clarify decision points, and clean and standardize data.",
+                "link": "Learn More"
+            },
+            {
+                "id": "accelerate",
+                "title": "Accelerate",
+                "subtitle": "Speed & Efficiency",
+                "description": "When barriers are removed, speed follows naturally. We accelerate decision flows and shorten feedback and action loops.",
+                "link": "Learn More"
+            },
+            {
+                "id": "smartify",
+                "title": "Smartify",
+                "subtitle": "AI & Automation",
+                "description": "This is where exponential growth begins. We automate decisions with AI and turn organizations into learning, adaptive systems.",
+                "link": "Learn More"
+            }
+        ]
+    },
+    "why": {
+        "title": "Why SimplifAI?",
+        "reasons": [
+            {
+                "text": "Business-first, not technology-first"
+            },
+            {
+                "text": "Architecture tailored to each organization"
+            },
+            {
+                "text": "Scalable and sustainable AI built into the organization"
+            }
+        ]
+    }
+}

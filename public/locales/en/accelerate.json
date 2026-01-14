@@ -1,0 +1,51 @@
+{
+    "hero": {
+        "title": "Accelerate",
+        "subtitle": "Speed Comes Before Intelligence",
+        "intro": "Many organizations want to adopt AI. But one critical fact is often overlooked: <span class=\"font-bold\">A slow organization cannot become intelligent.</span>",
+        "description": "When decisions take days, approval chains are long, and data arrives late or incomplete, AI does not create value — it <span class=\"font-bold text-orange-500\">accelerates complexity.</span> <br/><br/> Acceleration is the stage that prepares the organization for intelligence."
+    },
+    "purpose": {
+        "title": "Purpose",
+        "description": "To eliminate delays between decision and action and enable the organization to operate at high speed."
+    },
+    "whatWeDo": {
+        "title": "What We Do",
+        "items": [
+            {
+                "id": "flows",
+                "title": "Clarify Decision Flows",
+                "text": "We focus on decision points, not processes. Who decides, based on what, and when — we make it explicit."
+            },
+            {
+                "id": "approval",
+                "title": "Lighten Approval Mechanisms",
+                "text": "We remove unnecessary controls and repetitions. Structural barriers that slow down decisions are simplified."
+            },
+            {
+                "id": "support",
+                "title": "Build Decision Support Structures",
+                "text": "Data is delivered at the moment of decision, not as static reports. Systems guide users toward the right action."
+            },
+            {
+                "id": "feedback",
+                "title": "Shorten Feedback Loops",
+                "text": "The impact of decisions becomes visible quickly. The organization starts to learn and adapt."
+            }
+        ]
+    },
+    "impact": {
+        "title": "Impact",
+        "metrics": "20–40%",
+        "metricsLabel": "operational efficiency improvement",
+        "items": [
+            "Significantly shorter decision cycles",
+            "Clear ownership and faster execution",
+            "An organization ready for intelligence"
+        ]
+    },
+    "perspective": {
+        "title": "The SimplifAI Perspective",
+        "text": "Acceleration is not the destination — it is the threshold. Without crossing this threshold, AI cannot scale."
+    }
+}

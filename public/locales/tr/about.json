@@ -1,0 +1,39 @@
+{
+    "hero": {
+        "title": "Hakkımızda",
+        "subtitle": "Biz Kimiz?"
+    },
+    "whoWeAre": {
+        "title": "Biz Kimiz?",
+        "company": "Rumeli SimplifAI",
+        "intro": "<span class=\"font-bold\">Rumeli SimplifAI</span>, dijital dönüşümü teknoloji projeleriyle değil, doğru tasarlanmış iş süreçleri ve karar sistemleriyle ele alan bir danışmanlık ve teknoloji ofisidir.",
+        "description": "Karar bilimi, süreç yönetimi ve yapay zekâyı tek bir bütün olarak kurgular; kurumların daha <span class=\"font-bold\">sade</span>, daha <span class=\"font-bold\">hızlı</span> ve daha <span class=\"font-bold\">akıllı</span> çalışmasını sağlar."
+    },
+    "belief": {
+        "title": "İnancımız",
+        "main": "<span class=\"font-bold\">Teknoloji</span> tek başına değer yaratmaz.",
+        "description": "Değer; <span class=\"font-bold\">doğru sadeleştirme</span>, <span class=\"font-bold\">doğru hız</span> ve <span class=\"font-bold\">doğru zekâ</span> ile ortaya çıkar.",
+        "extended": "Yapay zekânın gerçek gücü, <span class=\"text-blue-600 font-bold\">gereksiz karmaşıklığı</span> artırmakta değil; karar kalitesini yükseltmek, <span class=\"text-blue-600 font-bold\">süreçleri netleştirmek</span> ve organizasyonu öğrenen bir yapıya dönüştürmekte yatar."
+    },
+    "whatWeDo": {
+        "title": "Ne Yaparız?",
+        "items": [
+            {
+                "id": 1,
+                "text": "İş süreçlerini ve karar noktalarını sadeleştiririz"
+            },
+            {
+                "id": 2,
+                "text": "Kuruma özel, ölçeklenebilir AI çözümleri tasarlarız"
+            },
+            {
+                "id": 3,
+                "text": "Yapay zekâyı projeden çıkarıp kurumsal bir yetkinliğe dönüştürürüz"
+            }
+        ]
+    },
+    "bottom": {
+        "company": "Rumeli SimplifAI",
+        "tagline": "Simplify. Accelerate. Smartify."
+    }
+}

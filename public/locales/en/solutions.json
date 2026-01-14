@@ -1,0 +1,195 @@
+{
+    "simplify": {
+        "hero": {
+            "title": "Simplify",
+            "subtitle": "There is no AI without reducing complexity.",
+            "description": "First, we simplify processes with systematic methods and clean data outliers. Then, and only then, can AI create intelligent value.",
+            "cta": "Back to Services"
+        },
+        "purpose": {
+            "title": "Purpose",
+            "text": "Reduce complexity and eliminate friction points."
+        },
+        "whatWeDo": {
+            "title": "What We Do",
+            "items": [
+                "Process mapping and simplification",
+                "Elimination of unnecessary rules and approval mechanisms",
+                "Establishment of data standards"
+            ]
+        },
+        "impact": {
+            "title": "Impact",
+            "items": [
+                "Initial impact is limited (5–10%)",
+                "But it opens the door to acceleration"
+            ]
+        },
+        "footer": {
+            "main": "Right simplification is the foundation of right speed and right intelligence.",
+            "cta": "Before AI, let's embark on the simplification journey together.",
+            "button": "Get in Touch"
+        },
+        "cards": [
+            {
+                "id": "simplify",
+                "title": "Simplify",
+                "description": "There is no AI without reducing complexity.",
+                "details": "We simplify processes, clean and standardize data."
+            },
+            {
+                "id": "accelerate",
+                "title": "Accelerate",
+                "description": "When friction is removed, speed follows naturally.",
+                "details": "We accelerate decision flows and shorten feedback loops."
+            },
+            {
+                "id": "intellify",
+                "title": "Smartify",
+                "description": "Exponential growth begins here.",
+                "details": "We automate decisions with AI and make organizations intelligent."
+            }
+        ]
+    },
+    "accelerate": {
+        "hero": {
+            "title": "Accelerate",
+            "subtitle": "When Friction is Removed, Speed Follows Naturally",
+            "description": "Simplified business processes can now be accelerated. We shorten the decision-making process and make operations flow smoothly.",
+            "cta": "Back to Services"
+        },
+        "purpose": {
+            "title": "Purpose",
+            "text": "Increase decision-making and execution speed."
+        },
+        "whatWeDo": {
+            "title": "What We Do",
+            "items": [
+                {
+                    "title": "Decision Point Redesign",
+                    "description": "We focus on decision points, not processes. Who decides, based on what, and when — we make it explicit."
+                },
+                {
+                    "title": "Automatic Suggestion and Guidance Systems",
+                    "description": "Data is delivered at the moment of decision, not as static reports. Systems guide users toward the right action."
+                },
+                {
+                    "title": "Real-Time Reporting",
+                    "description": "The impact of decisions becomes visible quickly. The organization starts to learn and adapt."
+                }
+            ]
+        },
+        "impact": {
+            "title": "Impact",
+            "items": [
+                "Transition from linear to accelerated growth",
+                "20–40% efficiency improvement",
+                "Clear ownership and faster execution",
+                "An organization ready for intelligence"
+            ]
+        },
+        "approach": {
+            "title": "The SimplifAI Approach",
+            "text": "Acceleration is not the destination — it is the threshold. Without crossing this threshold, AI cannot scale."
+        },
+        "stats": {
+            "title": "20–40% efficiency improvement",
+            "subtitle": "Transition from linear to accelerated growth."
+        },
+        "cards": [
+            {
+                "id": "simplify",
+                "title": "Simplify",
+                "subtitle": "Without Reducing",
+                "description": "Complexity, No AI"
+            },
+            {
+                "id": "accelerate",
+                "title": "Accelerate",
+                "subtitle": "When Friction is Removed",
+                "description": "Speed Follows Naturally"
+            },
+            {
+                "id": "intellify",
+                "title": "Smartify",
+                "subtitle": "Exponential Growth",
+                "description": "Begins Here"
+            }
+        ]
+    },
+    "smartify": {
+        "hero": {
+            "title": "Smartify",
+            "subtitle": "Where Exponential Growth Begins",
+            "description": "After simplification and acceleration steps, we transform your organization into a learning, adaptive structure with AI.",
+            "cta": "Back to Services"
+        },
+        "purpose": {
+            "title": "Purpose",
+            "text": "An intelligent organization that enables exponential growth."
+        },
+        "whatWeDo": {
+            "title": "What We Do",
+            "items": [
+                {
+                    "title": "AI-Powered Decision Engines",
+                    "description": "We design decision engines that combine data, business rules, and learning models. AI does not replace leaders — it enhances consistency, speed, and decision quality."
+                },
+                {
+                    "title": "Autonomous Action Systems",
+                    "description": "Repetitive and predictable decisions are converted into automated actions. People focus on exceptions, strategy, and creative problem-solving."
+                },
+                {
+                    "title": "Learning Organization Models",
+                    "description": "Every decision and action is measured, analyzed, and learned from. The organization continuously improves — becoming faster, smarter, and more resilient over time."
+                }
+            ]
+        },
+        "impact": {
+            "title": "Impact",
+            "items": [
+                "Exponential performance improvement",
+                "Human + AI collaboration model",
+                "Consistent, high-quality decision making",
+                "An organization that becomes stronger as it scales"
+            ]
+        },
+        "approach": {
+            "title": "The SimplifAI Approach",
+            "main": "We don't add AI. We design organizations where AI can operate with confidence.",
+            "conclusion": "Smartification is the natural outcome of simplification and acceleration. When all three work together, true transformation begins."
+        },
+        "methodology": {
+            "title": "SimplifAI Implementation Methodology",
+            "subtitle": "From Complexity to Exponential Performance",
+            "stages": [
+                {
+                    "id": 1,
+                    "title": "START",
+                    "subtitle": "Clear definition of strategic goals and problems"
+                },
+                {
+                    "id": 2,
+                    "title": "BUILD",
+                    "subtitle": "Establishing process, data and decision architecture"
+                },
+                {
+                    "id": 3,
+                    "title": "PILOT",
+                    "subtitle": "Rapid pilot implementations in selected areas"
+                },
+                {
+                    "id": 4,
+                    "title": "TEST",
+                    "subtitle": "Performance, impact and scalability tests"
+                },
+                {
+                    "id": 5,
+                    "title": "SCALE",
+                    "subtitle": "Enterprise rollout and sustainable structure"
+                }
+            ],
+            "footer": "We're not building AI. We're building the organization where AI can scale."
+        }
+    }
+}

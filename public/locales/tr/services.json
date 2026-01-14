@@ -1,0 +1,30 @@
+{
+    "hero": {
+        "title": "Genel Bakış",
+        "subtitle": "Hizmetler",
+        "description": "SimplifAI, dijital dönüşüm ve yapay zekâyı tek bir bütünsel metodoloji ile ele alır. <br/> Önce sadeleştirir, sonra hızlandırır, en sonunda zekâ ile ölçekleriz."
+    },
+    "services": [
+        {
+            "id": "digital-process",
+            "title": "Dijital Süreç Sadeleştirme",
+            "description": "Karmaşıklığı ortadan kaldırır, süreçleri, karar noktalarını ve veriyi netleştiririz. AI ve otomasyon için sağlam bir temel oluştururuz.",
+            "link": "İncele"
+        },
+        {
+            "id": "decision-acceleration",
+            "title": "Karar Hızlandırma ve Otomasyon",
+            "description": "Kritik karar akışlarını yeniden tasarlarız. Tekrar eden kararları otomatikleştirir, hızlı ve tutarlı karar alma yapıları kurarız.",
+            "link": "İncele"
+        },
+        {
+            "id": "ai-architecture",
+            "title": "Yapay Zekâ Mimari Tasarımı",
+            "description": "Kuruma özel AI mimarileri tasarlarız. İnsan ve yapay zekânın birlikte çalıştığı, ölçeklenebilir ve sürdürülebilir yapılar kurarız.",
+            "link": "İncele"
+        }
+    ],
+    "cta": {
+        "text": "İletişime Geç"
+    }
+}

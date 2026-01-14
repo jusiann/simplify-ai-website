@@ -1,0 +1,51 @@
+{
+    "hero": {
+        "title": "Hızlandır",
+        "subtitle": "Zekâdan Önce Hız Gelir",
+        "intro": "Birçok şirket yapay zekâya geçmek ister. Ancak çoğu zaman gözden kaçan kritik bir gerçek vardır: <span class=\"font-bold\">Yavaş bir organizasyon akıllandırılamaz.</span>",
+        "description": "Kararların günler sürdüğü, onay zincirlerinin uzadığı, verinin geç ve eksik geldiği yapılarda yapay zekâ değer üretmez — <span class=\"font-bold text-orange-500\">karmaşıklığı hızlandırır.</span> <br/><br/> Hızlandırma, organizasyonu yapay zekâya hazırlayan aşamadır."
+    },
+    "purpose": {
+        "title": "Amaç",
+        "description": "Karar alma ile aksiyon arasındaki gecikmeleri ortadan kaldırmak ve organizasyonu yüksek tempoda çalışabilir hâle getirmek."
+    },
+    "whatWeDo": {
+        "title": "Ne Yaparız?",
+        "items": [
+            {
+                "id": "flows",
+                "title": "Karar Akışlarını Netleştiririz",
+                "text": "Süreçleri değil, karar noktalarını ele alırız. Kim, neye göre ve ne zaman karar veriyor sorusunu netleştiririz."
+            },
+            {
+                "id": "approval",
+                "title": "Onay Mekanizmalarını Hafifletiriz",
+                "text": "Gereksiz kontrol ve tekrarları ortadan kaldırırız. Hızın önündeki yapısal engelleri sadeleştiririz."
+            },
+            {
+                "id": "support",
+                "title": "Karar Destek Yapılarını Kurarız",
+                "text": "Veriyi rapor olarak değil, karar anında kullanılacak şekilde sunarız. Sistemler kullanıcıyı doğru karara yönlendirir."
+            },
+            {
+                "id": "feedback",
+                "title": "Geri Bildirim Döngülerini Kısaltırız",
+                "text": "Kararların etkisi hızlıca görünür olur. Organizasyon öğrenmeye ve uyumlanmaya başlar."
+            }
+        ]
+    },
+    "impact": {
+        "title": "Etki",
+        "metrics": "%20–40",
+        "metricsLabel": "operasyonel verimlilik artışı",
+        "items": [
+            "Karar sürelerinde belirgin kısalma",
+            "Daha net sorumluluklar ve daha hızlı aksiyon",
+            "Zekileştirmeye hazır bir organizasyon"
+        ]
+    },
+    "perspective": {
+        "title": "SimplifAI Yaklaşımı",
+        "text": "Hızlandırma bir hedef değil, bir eşiktir. Bu eşik geçilmeden yapay zekâ ölçeklenemez."
+    }
+}

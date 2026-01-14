@@ -1,0 +1,37 @@
+{
+    "nav": {
+        "home": "Ana Sayfa",
+        "services": "Hizmetler",
+        "methodology": "Uygulama Metodolojisi",
+        "about": "Hakkımızda",
+        "blog": "Blog",
+        "contact": "Birlikte Başlayalım"
+    },
+    "footer": {
+        "brand": "SimplifAI",
+        "tagline": "Basitleştir. Hızlandır. Zekileştir.",
+        "company": "SimplifAI",
+        "copyright": "© 2024 SimplifAI. Tüm hakları saklıdır.",
+        "solutions": "Çözümler",
+        "simplify": "Basitleştir",
+        "accelerate": "Hızlandır",
+        "smartify": "Zekileştir",
+        "resources": "Kaynaklar",
+        "methodology": "Metodoloji",
+        "caseStudies": "Vaka Çalışmaları",
+        "contact": "İletişim",
+        "email": "info@simplifai.com",
+        "contactText": "Dönüşüm yolculuğunuzu birlikte tasarlayalım."
+    },
+    "buttons": {
+        "learnMore": "Daha Fazla",
+        "discoverServices": "Hizmetlerimizi Keşfedin",
+        "backToServices": "Hizmetlere Geri Dön",
+        "startTogether": "Birlikte Başlayalım",
+        "exploreMore": "Daha Fazlasını Keşfedin"
+    },
+    "language": {
+        "tr": "TR",
+        "en": "EN"
+    }
+}

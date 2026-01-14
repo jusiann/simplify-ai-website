@@ -1,0 +1,39 @@
+{
+    "hero": {
+        "title": "About Us",
+        "subtitle": "Who We Are"
+    },
+    "whoWeAre": {
+        "title": "Who We Are?",
+        "company": "Rumeli SimplifAI",
+        "intro": "<span class=\"font-bold\">Rumeli SimplifAI</span> is a consulting and technology office that approaches digital transformation not as a technology initiative, but as a redesign of business processes and decision systems.",
+        "description": "We bring together decision science, process management, and artificial intelligence into a single, cohesive approach—enabling organizations to operate in a more <span class=\"font-bold\">simple</span>, <span class=\"font-bold\">fast</span>, and <span class=\"font-bold\">intelligent</span> way."
+    },
+    "belief": {
+        "title": "Our Belief",
+        "main": "<span class=\"font-bold\">Technology</span> alone does not create value.",
+        "description": "Value emerges from <span class=\"font-bold\">the right simplification</span>, <span class=\"font-bold\">the right speed</span>, and <span class=\"font-bold\">the right intelligence</span>.",
+        "extended": "The true power of artificial intelligence lies not in increasing <span class=\"text-blue-600 font-bold\">unnecessary complexity</span>, but in improving decision quality, <span class=\"text-blue-600 font-bold\">clarifying processes</span>, and transforming organizations into learning systems."
+    },
+    "whatWeDo": {
+        "title": "What We Do?",
+        "items": [
+            {
+                "id": 1,
+                "text": "We simplify business processes and decision points"
+            },
+            {
+                "id": 2,
+                "text": "We design organization-specific, scalable AI solutions"
+            },
+            {
+                "id": 3,
+                "text": "We transform artificial intelligence from a project into an organizational capability"
+            }
+        ]
+    },
+    "bottom": {
+        "company": "Rumeli SimplifAI",
+        "tagline": "Simplify. Accelerate. Smartify."
+    }
+}

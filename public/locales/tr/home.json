@@ -1,0 +1,47 @@
+{
+    "hero": {
+        "title": "Dijital inovasyonla işinizi yeniden tasarlayın",
+        "subtitle": "Önce süreçlerinizi sadeleştiririz.<br/>Sonra karar alma hızınızı artırırız.<br/>En sonunda yapay zekâ ile organizasyonunuzu akıllandırırız.<br/><br/>İşinizi karmaşık teknolojilerle değil,<br/>doğru sadeleşme, doğru hız ve doğru zekâ ile dönüştürürüz.",
+        "cta": "Hizmetlerimizi Keşfedin"
+    },
+    "approach": {
+        "title": "SimplifAI Yaklaşımı",
+        "cards": [
+            {
+                "id": "simplify",
+                "title": "Sadeleştir",
+                "subtitle": "Süreç ve Karar Netliği",
+                "description": "Yapay zekâ karmaşıklık üzerinde çalışmaz. Süreçleri sadeleştirir, karar noktalarını netleştirir, veriyi temizler ve standart hale getiririz.",
+                "link": "Daha Fazla"
+            },
+            {
+                "id": "accelerate",
+                "title": "Hızlandır",
+                "subtitle": "Hız ve Verimlilik",
+                "description": "Engeller ortadan kalktığında hız doğal olarak oluşur. Karar akışlarını hızlandırır, geri bildirim ve aksiyon döngülerini kısaltırız.",
+                "link": "Daha Fazla"
+            },
+            {
+                "id": "smartify",
+                "title": "Zekileştir",
+                "subtitle": "Yapay Zekâ ve Otomasyon",
+                "description": "Üstel büyüme burada başlar. Yapay zekâ ile kararları otomatikleştirir, organizasyonu öğrenen ve kendini geliştiren bir yapıya dönüştürürüz.",
+                "link": "Daha Fazla"
+            }
+        ]
+    },
+    "why": {
+        "title": "Neden SimplifAI?",
+        "reasons": [
+            {
+                "text": "Teknolojiden önce iş değerini merkeze alırız"
+            },
+            {
+                "text": "Her kurum için özel, gerçekçi ve uygulanabilir mimariler kurarız"
+            },
+            {
+                "text": "Ölçeklenebilir, sürdürülebilir ve kuruma yerleşen yapay zekâ çözümleri geliştiririz"
+            }
+        ]
+    }
+}

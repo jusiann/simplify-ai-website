@@ -1,0 +1,30 @@
+{
+    "hero": {
+        "title": "Overview",
+        "subtitle": "Services",
+        "description": "SimplifAI approaches digital transformation and AI through one integrated methodology. <br/> We simplify first, accelerate next, and scale with intelligence."
+    },
+    "services": [
+        {
+            "id": "digital-process",
+            "title": "Digital Process Simplification",
+            "description": "We remove unnecessary complexity, clarifying processes, decision points, and data. We build a solid foundation for AI and automation.",
+            "link": "Learn More"
+        },
+        {
+            "id": "decision-acceleration",
+            "title": "Decision Acceleration & Automation",
+            "description": "We redesign critical decision flows. Repetitive decisions are automated, enabling faster and more consistent outcomes.",
+            "link": "Learn More"
+        },
+        {
+            "id": "ai-architecture",
+            "title": "AI Architecture Design",
+            "description": "We design organization-specific AI architectures. Structures that enable human–AI collaboration, built to scale and last.",
+            "link": "Learn More"
+        }
+    ],
+    "cta": {
+        "text": "Contact Us"
+    }
+}

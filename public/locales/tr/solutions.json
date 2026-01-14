@@ -1,0 +1,191 @@
+{
+    "simplify": {
+        "hero": {
+            "title": "Basitleştir",
+            "subtitle": "Basitleştir",
+            "description": "Karmaşıklığı azaltmadan yapay zekâ olmaz. Süreçleri sadeleştirir, veriyi temizler ve standartlaştırırız.",
+            "cta": "Hizmetlere Geri Dön"
+        },
+        "purpose": {
+            "title": "Amaç",
+            "text": "Karmaşıklığı azaltmak, sürtünme noktalarını ortadan kaldırmak."
+        },
+        "whatWeDo": {
+            "title": "Ne Yaparız?",
+            "items": [
+                "Süreç haritalama ve sadeleştirme",
+                "Gereksiz kural ve onay mekanizmalarının kaldırılması",
+                "Veri standartlarının oluşturulması"
+            ]
+        },
+        "impact": {
+            "title": "Etki",
+            "items": [
+                "İlk aşamada etki sınırlıdır (%5–10)",
+                "Ancak hızlanmanın önünü açar"
+            ]
+        },
+        "footer": {
+            "main": "Doğru sadeleşme, doğru hız ve doğru zekânın temelidir.",
+            "cta": "Yapay zekâ olmadan önce, sadeleşme yolculuğuna birlikte çıkalım.",
+            "button": "Birlikte Başlayalım"
+        },
+        "cards": [
+            {
+                "id": "simplify",
+                "title": "Basitleştir",
+                "description": "Karmaşıklığı azaltmadan yapay zekâ olmaz.",
+                "details": "Süreçleri sadeleştirir, veriyi temizler ve standartlaştırırız."
+            },
+            {
+                "id": "accelerate",
+                "title": "Hızlandır",
+                "description": "Sürtünme kalkınca hız kendiliğinden gelir.",
+                "details": "Karar akışlarını hızlandırır, geri bildirim döngülerini kısaltırız."
+            },
+            {
+                "id": "intellify",
+                "title": "Zekileştir",
+                "description": "Üstel büyüme burada başlar.",
+                "details": "Yapay zekâ ile kararları otomatikleştirir, organizasyonu akıllandırırız."
+            }
+        ]
+    },
+    "accelerate": {
+        "hero": {
+            "title": "Hızlandır",
+            "subtitle": "Hızlandır",
+            "description": "Sürtünme kalkınca hız kendiliğinden gelir. Karar akışlarını hızlandırır, geri bildirim döngülerini kısaltırız.",
+            "cta": "Hizmetlere Geri Dön"
+        },
+        "purpose": {
+            "title": "Amaç",
+            "text": "Karar alma ve uygulama hızını artırmak."
+        },
+        "whatWeDo": {
+            "title": "Ne Yaparız?",
+            "items": [
+                {
+                    "title": "Karar noktalarının yeniden tasarımı",
+                    "description": ""
+                },
+                {
+                    "title": "Otomatik öneri ve yönlendirme sistemleri",
+                    "description": ""
+                },
+                {
+                    "title": "Gerçek zamanlı raporlama",
+                    "description": ""
+                }
+            ]
+        },
+        "impact": {
+            "title": "Etki",
+            "items": [
+                "Doğrusal büyümeden ivmeli büyümeye geçiş",
+                "%20–40 verimlilik artışı"
+            ]
+        },
+        "approach": {
+            "title": "SimplifAI Yaklaşımı",
+            "text": "Basitleştir. Hızlandır. Zekileştir."
+        },
+        "stats": {
+            "title": "%20–40 verimlilik artışı",
+            "subtitle": "Doğrusal büyümeden ivmeli büyümeye geçiş."
+        },
+        "cards": [
+            {
+                "id": "simplify",
+                "title": "Basitleştir",
+                "subtitle": "Karmaşıklığı Azaltmadan",
+                "description": "Yapay Zekâ Olmaz"
+            },
+            {
+                "id": "accelerate",
+                "title": "Hızlandır",
+                "subtitle": "Sürtünme Kalkınca",
+                "description": "Hız Kendiliğinden Gelir"
+            },
+            {
+                "id": "intellify",
+                "title": "Zekileştir",
+                "subtitle": "Üstel Büyüme",
+                "description": "Burada Başlar"
+            }
+        ]
+    },
+    "smartify": {
+        "hero": {
+            "title": "Zekileştir",
+            "subtitle": "Zekileştir",
+            "description": "Üstel büyüme burada başlar. Yapay zekâ ile kararları otomatikleştirir, organizasyonu akıllandırırız.",
+            "cta": "Hizmetlere Geri Dön"
+        },
+        "purpose": {
+            "title": "Amaç",
+            "text": "Üstel büyümeyi mümkün kılan akıllı organizasyon."
+        },
+        "whatWeDo": {
+            "title": "Ne Yaparız?",
+            "items": [
+                {
+                    "title": "Yapay zekâ destekli karar motorları",
+                    "description": ""
+                },
+                {
+                    "title": "Otonom aksiyon sistemleri",
+                    "description": ""
+                },
+                {
+                    "title": "Öğrenen organizasyon modelleri",
+                    "description": ""
+                }
+            ]
+        },
+        "impact": {
+            "title": "Etki",
+            "items": [
+                "Üstel performans artışı",
+                "İnsan + AI birlikte çalışma modeli"
+            ]
+        },
+        "approach": {
+            "title": "SimplifAI Yaklaşımı",
+            "main": "Basitleştir. Hızlandır. Zekileştir.",
+            "conclusion": ""
+        },
+        "methodology": {
+            "title": "SimplifAI Uygulama Metodolojisi",
+            "subtitle": "Karmaşıklıktan Üstel Performansa",
+            "stages": [
+                {
+                    "id": 1,
+                    "title": "Başlat",
+                    "subtitle": "Stratejik hedeflerin ve problemin net tanımı"
+                },
+                {
+                    "id": 2,
+                    "title": "İnşa Et",
+                    "subtitle": "Süreç, veri ve karar mimarisinin kurulması"
+                },
+                {
+                    "id": 3,
+                    "title": "Pilotla",
+                    "subtitle": "Seçili alanlarda hızlı pilot uygulamalar"
+                },
+                {
+                    "id": 4,
+                    "title": "Test Et",
+                    "subtitle": "Performans, etki ve ölçeklenebilirlik testleri"
+                },
+                {
+                    "id": 5,
+                    "title": "Ölçekle",
+                    "subtitle": "Kurumsal yayılım ve sürdürülebilir yapı"
+                }
+            ],
+            "footer": ""
+        }
+    }
+}

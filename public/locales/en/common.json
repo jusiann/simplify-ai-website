@@ -1,0 +1,37 @@
+{
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "methodology": "Methodology",
+        "about": "About",
+        "blog": "Blog",
+        "contact": "Get in Touch"
+    },
+    "footer": {
+        "brand": "SimplifAI",
+        "tagline": "Simplify. Accelerate. Smartify.",
+        "company": "Rumelia SimplifAI",
+        "copyright": "© 2024 SimplifAI. All rights reserved.",
+        "solutions": "Solutions",
+        "simplify": "Simplify",
+        "accelerate": "Accelerate",
+        "smartify": "Smartify",
+        "resources": "Resources",
+        "methodology": "Methodology",
+        "caseStudies": "Case Studies",
+        "contact": "Contact",
+        "email": "info@simplifai.com",
+        "contactText": "Let's design your transformation journey together."
+    },
+    "buttons": {
+        "learnMore": "Learn More",
+        "discoverServices": "Explore Our Services",
+        "backToServices": "Back to Services",
+        "startTogether": "Get in Touch",
+        "exploreMore": "Explore More"
+    },
+    "language": {
+        "tr": "TR",
+        "en": "EN"
+    }
+}
