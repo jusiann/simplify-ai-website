@@ -1,211 +1,203 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Check } from 'lucide-react';
+import { ArrowRight, Settings, TrendingUp, Brain } from 'lucide-react';
 import Section from '@/components/ui/Section';
 import Button from '@/components/ui/Button';
-import { staggerContainer, staggerItem, fadeIn, slideInLeft, viewportSettings } from '@/utils/animations';
+import { fadeIn, viewportSettings } from '@/utils/animations';
 
-/**
- * Simplify solution page component
- */
+
 function Simplify() {
     const { t } = useTranslation('solutions');
-    const { t: tCommon } = useTranslation('common');
 
-    const whatWeDoItems = t('simplify.whatWeDo.items', { returnObjects: true });
-    const impactItems = t('simplify.impact.items', { returnObjects: true });
     const cards = t('simplify.cards', { returnObjects: true });
+    const safeCards = Array.isArray(cards) ? cards : [];
+
+    const impactItems = t('simplify.impact.items', { returnObjects: true });
+    const safeImpactItems = Array.isArray(impactItems) ? impactItems : [];
+
+    const getCardIcon = (id) => {
+        switch (id) {
+            case 'simplify':
+                return <Settings className="w-8 h-8" />;
+            case 'accelerate':
+                return <TrendingUp className="w-8 h-8" />;
+            case 'intellify':
+                return <Brain className="w-8 h-8" />;
+            default:
+                return <Settings className="w-8 h-8" />;
+        }
+    };
+
+    const getCardStyles = (id) => {
+        switch (id) {
+            case 'simplify':
+                return {
+                    bg: 'bg-gradient-to-br from-[#E6F4FA] to-[#d4eef9]',
+                    text: 'text-[#1E6BB8]',
+                    iconBg: 'bg-[#1E6BB8]/10',
+                    border: 'ring-2 ring-[#1E6BB8]/30'
+                };
+            case 'accelerate':
+                return {
+                    bg: 'bg-gradient-to-br from-[#FEF3E6] to-[#fce5cc]',
+                    text: 'text-[#E67E22]',
+                    iconBg: 'bg-[#E67E22]/10',
+                    border: ''
+                };
+            case 'intellify':
+                return {
+                    bg: 'bg-gradient-to-br from-[#0A1628] to-[#1a2d4a]',
+                    text: 'text-white',
+                    iconBg: 'bg-white/10',
+                    border: ''
+                };
+            default:
+                return {
+                    bg: 'bg-gray-100',
+                    text: 'text-gray-800',
+                    iconBg: 'bg-gray-200',
+                    border: ''
+                };
+        }
+    };
 
     return (
-        <div>
-            {/* Hero Section */}
-            <section className="relative py-20 lg:py-32 bg-simplify overflow-hidden">
-                <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                    <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary/10 rounded-full blur-3xl" />
-                </div>
+        <div className="overflow-x-hidden">
+            {/* HERO SECTION */}
+            <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden">
+                {/* BACKGROUND */}
+                <div className="absolute inset-0 bg-gradient-to-br from-[#E6F4FA] via-white to-[#f0f9ff] -z-10" />
+                <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-bl from-[#d4eef9]/50 to-transparent -z-10" />
 
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <motion.div
                         className="max-w-3xl"
                         initial={fadeIn.initial}
                         animate={fadeIn.animate}
                         transition={fadeIn.transition}
                     >
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-text-primary">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#0A1628] mb-4">
                             {t('simplify.hero.title')}
                         </h1>
-                        <p className="mt-6 text-xl text-text-secondary">
+                        <p className="text-xl md:text-2xl text-[#0A1628] font-medium mb-6">
                             {t('simplify.hero.subtitle')}
                         </p>
-                        <p className="mt-4 text-lg text-text-secondary">
+                        <p className="text-lg text-text-secondary leading-relaxed mb-8 max-w-2xl">
                             {t('simplify.hero.description')}
                         </p>
-                        <div className="mt-8">
-                            <Button variant="outline" to="/services">
-                                {t('simplify.hero.cta')}
-                            </Button>
-                        </div>
+                        <Button variant="outline" to="/services" className="inline-flex items-center gap-2">
+                            {t('simplify.hero.cta')}
+                            <ArrowRight className="w-4 h-4" />
+                        </Button>
                     </motion.div>
                 </div>
             </section>
 
-            {/* Introduction */}
+            {/* SERVICE CARDS SECTION */}
+            <section className="py-16 bg-gradient-to-b from-white to-gray-50/50">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+                        {safeCards.map((card, index) => {
+                            const styles = getCardStyles(card.id);
+                            const isActive = card.id === 'simplify';
+
+                            return (
+                                <motion.div
+                                    key={card.id || index}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={viewportSettings}
+                                    transition={{ delay: index * 0.1 }}
+                                    className={`
+                                        relative flex flex-col items-center text-center rounded-2xl p-6 lg:p-8 h-full
+                                        transition-all duration-300 hover:-translate-y-2 hover:shadow-xl
+                                        ${styles.bg} ${styles.border}
+                                        ${card.id === 'intellify' ? 'text-white' : ''}
+                                    `}
+                                >
+                                    {/* CARD HEADER */}
+                                    <h3 className={`text-2xl font-bold mb-2 ${styles.text}`}>
+                                        {card.title}
+                                    </h3>
+                                    <p className={`text-sm font-medium mb-3 ${card.id === 'intellify' ? 'text-gray-300' : 'text-text-primary'}`}>
+                                        {card.subtitle}
+                                    </p>
+                                    <p className={`flex-1 text-sm leading-relaxed mb-6 ${card.id === 'intellify' ? 'text-gray-400' : 'text-text-secondary'}`}>
+                                        {card.description}
+                                    </p>
+
+                                    {/* CARD LINK */}
+                                    <Link
+                                        to={card.id === 'simplify' ? '#' : `/solutions/${card.id}`}
+                                        className={`
+                                            mt-auto inline-flex items-center gap-1 text-sm font-semibold
+                                            px-4 py-2 rounded-full transition-all
+                                            ${isActive
+                                                ? 'bg-[#1E6BB8] text-white hover:bg-[#155a9c]'
+                                                : card.id === 'accelerate'
+                                                    ? 'bg-[#E67E22] text-white hover:bg-[#d9731b]'
+                                                    : 'bg-white/20 text-white hover:bg-white/30'
+                                            }
+                                        `}
+                                    >
+                                        {card.link}
+                                        <ArrowRight className="w-3 h-3" />
+                                    </Link>
+                                </motion.div>
+                            );
+                        })}
+                    </div>
+                </div>
+            </section>
+
+            {/* IMPACT SECTION */}
             <Section background="white">
                 <motion.div
-                    className="max-w-4xl mx-auto"
+                    className="max-w-4xl mx-auto text-center"
                     initial={fadeIn.initial}
                     whileInView={fadeIn.animate}
                     viewport={viewportSettings}
-                    transition={fadeIn.transition}
                 >
-                    <h2 className="text-2xl lg:text-3xl font-bold mb-6">
-                        {t('simplify.intro.title')}
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0A1628] mb-8">
+                        {t('simplify.footer.main')}
                     </h2>
-                    <div className="bg-secondary/10 border-l-4 border-secondary p-6 rounded-r-xl mb-6">
-                        <ul className="space-y-2 text-lg text-text-secondary">
-                            {t('simplify.intro.problems', { returnObjects: true }).map((problem, index) => (
-                                <li key={index}>"{problem}"</li>
-                            ))}
-                        </ul>
-                    </div>
-                    <p className="text-text-secondary leading-relaxed">
-                        {t('simplify.intro.cause')}
-                    </p>
-                </motion.div>
-            </Section>
 
-            {/* Purpose & What We Do */}
-            <Section background="default">
-                <div className="grid lg:grid-cols-2 gap-12">
-                    <motion.div
-                        initial={slideInLeft.initial}
-                        whileInView={slideInLeft.animate}
-                        viewport={viewportSettings}
-                        transition={slideInLeft.transition}
-                    >
-                        <h2 className="text-2xl font-bold mb-4 text-primary">
-                            {t('simplify.purpose.title')}
-                        </h2>
-                        <p className="text-lg text-text-primary">
-                            {t('simplify.purpose.text')}
-                        </p>
-                    </motion.div>
-
-                    <motion.div
-                        variants={staggerContainer}
-                        initial="initial"
-                        whileInView="animate"
-                        viewport={viewportSettings}
-                    >
-                        <h2 className="text-2xl font-bold mb-6">
-                            {t('simplify.whatWeDo.title')}
-                        </h2>
-                        <ul className="space-y-4">
-                            {whatWeDoItems.map((item, index) => (
-                                <motion.li
-                                    key={index}
-                                    className="flex items-start gap-3"
-                                    variants={staggerItem}
-                                >
-                                    <span className="flex-shrink-0 w-6 h-6 bg-primary text-white rounded-full flex items-center justify-center">
-                                        <Check className="w-4 h-4" />
-                                    </span>
-                                    <span className="text-text-secondary">{item}</span>
-                                </motion.li>
-                            ))}
-                        </ul>
-                    </motion.div>
-                </div>
-            </Section>
-
-            {/* Impact */}
-            <Section background="white">
-                <motion.div
-                    className="max-w-4xl mx-auto"
-                    variants={staggerContainer}
-                    initial="initial"
-                    whileInView="animate"
-                    viewport={viewportSettings}
-                >
-                    <motion.h2
-                        className="text-2xl lg:text-3xl font-bold text-center mb-8"
-                        variants={staggerItem}
-                    >
-                        {t('simplify.impact.title')}
-                    </motion.h2>
-                    <div className="grid md:grid-cols-2 gap-6">
-                        {impactItems.map((item, index) => (
-                            <motion.div
+                    <div className="grid md:grid-cols-2 gap-6 mb-12 text-left">
+                        {safeImpactItems.map((item, index) => (
+                            <div
                                 key={index}
-                                className="p-6 bg-simplify rounded-2xl"
-                                variants={staggerItem}
+                                className="p-4 bg-gray-50 rounded-xl border border-gray-100"
                             >
                                 <p className="text-text-primary">{item}</p>
-                            </motion.div>
+                            </div>
                         ))}
                     </div>
                 </motion.div>
             </Section>
 
-            {/* Solution Cards */}
-            <Section background="default">
-                <motion.div
-                    className="grid md:grid-cols-3 gap-6"
-                    variants={staggerContainer}
-                    initial="initial"
-                    whileInView="animate"
-                    viewport={viewportSettings}
-                >
-                    {cards.map((card, index) => (
-                        <motion.div
-                            key={card.id}
-                            className={`
-                rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-2
-                ${index === 0 ? 'bg-simplify ring-2 ring-primary' : ''}
-                ${index === 1 ? 'bg-accelerate' : ''}
-                ${index === 2 ? 'bg-smartify text-white' : ''}
-              `}
-                            variants={staggerItem}
+            {/* CTA SECTION */}
+            <section className="py-16 bg-gradient-to-b from-gray-50/50 to-white">
+                <div className="max-w-4xl mx-auto px-4 text-center">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={viewportSettings}
+                    >
+                        <p className="text-xl md:text-2xl text-[#0A1628] font-medium mb-8">
+                            {t('simplify.footer.cta')}
+                        </p>
+                        <Button
+                            variant="primary"
+                            size="lg"
+                            to="/about"
+                            className="bg-[#1E6BB8] hover:bg-[#155a9c] text-white px-8 py-4 rounded-full shadow-lg hover:shadow-xl"
                         >
-                            <h3 className="text-xl font-bold mb-2">{card.title}</h3>
-                            <p className="text-sm opacity-80 mb-3">{card.description}</p>
-                            <p className="text-sm opacity-70">{card.details}</p>
-                            {index !== 0 && (
-                                <Link
-                                    to={`/solutions/${card.id}`}
-                                    className={`
-                    inline-block mt-4 text-sm font-medium
-                    ${index === 2 ? 'text-white' : 'text-primary'}
-                  `}
-                                >
-                                    {tCommon('buttons.learnMore')} →
-                                </Link>
-                            )}
-                        </motion.div>
-                    ))}
-                </motion.div>
-            </Section>
-
-            {/* CTA */}
-            <Section background="gradient">
-                <motion.div
-                    className="text-center"
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={viewportSettings}
-                >
-                    <p className="text-lg text-text-primary mb-4">
-                        {t('simplify.footer.main')}
-                    </p>
-                    <p className="text-xl font-semibold text-primary mb-8">
-                        {t('simplify.footer.cta')}
-                    </p>
-                    <Button variant="secondary" size="lg" to="/about">
-                        {t('simplify.footer.button')}
-                    </Button>
-                </motion.div>
-            </Section>
+                            {t('simplify.footer.button')}
+                        </Button>
+                    </motion.div>
+                </div>
+            </section>
         </div>
     );
 }

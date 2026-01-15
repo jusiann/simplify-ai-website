@@ -33,8 +33,6 @@ function Navbar() {
         { path: '/', label: t('nav.home'), minWidth: 'min-w-[50px]' },
         { path: '/services', label: t('nav.services'), minWidth: 'min-w-[70px]' },
         { path: '/about', label: t('nav.about'), minWidth: 'min-w-[50px]' },
-        { path: '/blog', label: t('nav.blog'), minWidth: 'min-w-[50px]' },
-        { path: '/contact', label: 'Contact', minWidth: 'min-w-[70px]' },
     ];
 
     const isActivePath = (path) => {

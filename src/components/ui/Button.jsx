@@ -1,9 +1,7 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-/**
- * Reusable Button component with variants
- */
+
 function Button({
     children,
     variant = 'primary',
@@ -58,7 +56,7 @@ function Button({
     ${className}
   `.trim().replace(/\s+/g, ' ');
 
-    // External link
+
     if (href) {
         return (
             <a
@@ -71,7 +69,7 @@ function Button({
         );
     }
 
-    // Internal link
+
     if (to) {
         return (
             <Link
@@ -84,7 +82,7 @@ function Button({
         );
     }
 
-    // Regular button
+
     return (
         <button
             type={type}

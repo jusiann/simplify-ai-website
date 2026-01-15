@@ -1,7 +1,7 @@
 {
     "hero": {
         "title": "Redesign your business with digital innovation",
-        "subtitle": "First, we simplify your processes.<br/>Then, we accelerate decision-making.<br/>Finally, we enable your organization with artificial intelligence.<br/><br/>We don’t transform businesses with complex technology —<br/>we transform them with clarity, speed, and intelligence.",
+        "subtitle": "First, we simplify your processes.Then, we accelerate decision-making.Finally, we enable your organization with artificial intelligence.We don’t transform businesses with complex technology —we transform them with clarity, speed, and intelligence.",
         "cta": "Explore Our Services"
     },
     "approach": {
@@ -22,7 +22,7 @@
                 "link": "Learn More"
             },
             {
-                "id": "smartify",
+                "id": "intellify",
                 "title": "Smartify",
                 "subtitle": "AI & Automation",
                 "description": "This is where exponential growth begins. We automate decisions with AI and turn organizations into learning, adaptive systems.",

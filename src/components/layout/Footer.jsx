@@ -14,7 +14,7 @@ function Footer() {
     const year = new Date().getFullYear();
 
     return (
-        <section className="py-24 text-center border-t border-gray-100 bg-gray-50/30">
+        <section className="py-6 text-center border-t border-gray-100 bg-gray-50/30">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -30,7 +30,7 @@ function Footer() {
                 <p className="text-lg text-text-secondary tracking-widest uppercase font-medium">
                     Simplify. Accelerate. Smartify.
                 </p>
-                <p className="text-xs text-text-secondary/50 mt-12">
+                <p className="text-xs text-text-secondary/50 mt-3">
                     Rumeli SimplifAI | © {year} SimplifAI, All rights reserved.
                 </p>
             </motion.div>

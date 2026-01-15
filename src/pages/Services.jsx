@@ -6,9 +6,7 @@ import Section from '@/components/ui/Section';
 import Button from '@/components/ui/Button';
 import { staggerContainer, staggerItem, fadeIn, viewportSettings } from '@/utils/animations';
 
-/**
- * Services page component
- */
+
 function Services() {
     const { t } = useTranslation('services');
 
@@ -43,11 +41,11 @@ function Services() {
     const getIconBackground = (id) => {
         switch (id) {
             case 'digital-process':
-                return 'bg-gradient-to-br from-[#3b8fd4] to-[#1E6BB8]'; // Blue
+                return 'bg-gradient-to-br from-[#3b8fd4] to-[#1E6BB8]';
             case 'decision-acceleration':
-                return 'bg-gradient-to-br from-[#f39c4d] to-[#E67E22]'; // Orange
+                return 'bg-gradient-to-br from-[#f39c4d] to-[#E67E22]';
             case 'ai-architecture':
-                return 'bg-gradient-to-br from-[#7cb342] to-[#558b2f]'; // Greenish for AI/Architecture often used, or similar
+                return 'bg-gradient-to-br from-[#7cb342] to-[#558b2f]';
             default:
                 return 'bg-primary';
         }
@@ -55,7 +53,7 @@ function Services() {
 
     return (
         <div>
-            {/* Hero Section */}
+            {/* HERO SECTION */}
             <section className="relative pt-32 pb-12 bg-white text-center">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                     <motion.div
@@ -79,7 +77,7 @@ function Services() {
                 </div>
             </section>
 
-            {/* Services Grid */}
+            {/* SERVICES GRID */}
             <section className="py-20 bg-gray-50/50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <motion.div
@@ -121,7 +119,7 @@ function Services() {
                 </div>
             </section>
 
-            {/* CTA Section */}
+            {/* CTA SECTION */}
             <section className="pb-24 pt-8 bg-gray-50/50">
                 <div className="text-center">
                     <Button variant="primary" size="lg" to="/contact" className="px-8 py-3 bg-[#3b8fd4] hover:bg-[#1E6BB8] shadow-lg hover:shadow-xl rounded-full text-white font-medium">

@@ -4,9 +4,7 @@ import { Brain, Check } from 'lucide-react';
 import Section from '@/components/ui/Section';
 import { staggerContainer, staggerItem, fadeIn, viewportSettings } from '@/utils/animations';
 
-/**
- * About page component
- */
+
 function About() {
     const { t } = useTranslation('about');
 
@@ -14,9 +12,9 @@ function About() {
 
     return (
         <div className="overflow-x-hidden">
-            {/* Hero Section - Matching Home Page Style */}
+            {/* HERO SECTION */}
             <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden bg-white">
-                {/* Subtle Background Decor similar to Home */}
+                {/* BACKGROUND DECOR */}
                 <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-bl from-blue-50/30 to-transparent -z-10 rounded-bl-[100px]" />
 
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -35,7 +33,7 @@ function About() {
                 </div>
             </section>
 
-            {/* Who We Are - Centered Text Only */}
+            {/* WHO WE ARE SECTION */}
             <Section background="white">
                 <motion.div
                     initial={fadeIn.initial}
@@ -54,7 +52,7 @@ function About() {
                 </motion.div>
             </Section>
 
-            {/* Our Belief - Text directly on gray background */}
+            {/* BELIEF SECTION */}
             <section className="py-20 bg-gray-50/50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <motion.div
@@ -77,7 +75,7 @@ function About() {
                 </div>
             </section>
 
-            {/* What We Do - Matching Home "Why SimplifAI" List Style */}
+            {/* WHAT WE DO SECTION */}
             <section className="py-24 bg-white overflow-hidden">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <motion.div

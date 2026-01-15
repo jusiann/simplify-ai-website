@@ -1,0 +1,37 @@
+{
+    "hero": {
+        "title": "Get in Touch",
+        "subtitle": "Let's design your transformation journey together."
+    },
+    "info": {
+        "title": "Contact Us",
+        "description": "Get in touch with us to learn more about our digital transformation and AI solutions.",
+        "email": {
+            "label": "Email"
+        },
+        "phone": {
+            "label": "Phone"
+        },
+        "address": {
+            "label": "Address"
+        }
+    },
+    "form": {
+        "name": "Full Name",
+        "namePlaceholder": "Your full name",
+        "email": "Email",
+        "emailPlaceholder": "example@company.com",
+        "company": "Company",
+        "companyPlaceholder": "Company name (optional)",
+        "subject": "Subject",
+        "subjectPlaceholder": "Subject of your message",
+        "message": "Message",
+        "messagePlaceholder": "Write your message here...",
+        "submit": "Send Message",
+        "sending": "Sending...",
+        "success": {
+            "title": "Message Sent!",
+            "message": "We will get back to you as soon as possible."
+        }
+    }
+}

@@ -6,48 +6,60 @@
             "description": "First, we simplify processes with systematic methods and clean data outliers. Then, and only then, can AI create intelligent value.",
             "cta": "Back to Services"
         },
+        "intro": {
+            "title": "Introduction",
+            "problems": [
+                "Our processes are too complex.",
+                "Decisions take too long.",
+                "Everyone is busy, but results are limited."
+            ],
+            "cause": "These problems are not caused by lack of technology, but by unmanaged complexity. This is what must be addressed before AI can create value."
+        },
         "purpose": {
             "title": "Purpose",
-            "text": "Reduce complexity and eliminate friction points."
+            "text": "Reduce complexity and remove unnecessary friction points."
         },
         "whatWeDo": {
             "title": "What We Do",
             "items": [
-                "Process mapping and simplification",
-                "Elimination of unnecessary rules and approval mechanisms",
-                "Establishment of data standards"
+                "Map and simplify end-to-end processes",
+                "Eliminate redundant rules and approval layers",
+                "Standardize data and make it decision-ready"
             ]
         },
         "impact": {
             "title": "Impact",
             "items": [
-                "Initial impact is limited (5–10%)",
-                "But it opens the door to acceleration"
+                "Limited initial impact (5–10%)",
+                "But creates the foundation for acceleration and intelligence"
             ]
         },
         "footer": {
             "main": "Right simplification is the foundation of right speed and right intelligence.",
             "cta": "Before AI, let's embark on the simplification journey together.",
-            "button": "Get in Touch"
+            "button": "Let's Start Together"
         },
         "cards": [
             {
                 "id": "simplify",
                 "title": "Simplify",
-                "description": "There is no AI without reducing complexity.",
-                "details": "We simplify processes, clean and standardize data."
+                "subtitle": "There is no AI without reducing complexity.",
+                "description": "We simplify processes, clean and standardize data.",
+                "link": "Learn More"
             },
             {
                 "id": "accelerate",
                 "title": "Accelerate",
-                "description": "When friction is removed, speed follows naturally.",
-                "details": "We accelerate decision flows and shorten feedback loops."
+                "subtitle": "When friction is removed, speed follows naturally.",
+                "description": "We accelerate decision flows and shorten feedback loops.",
+                "link": "Learn More"
             },
             {
                 "id": "intellify",
                 "title": "Smartify",
-                "description": "Exponential growth begins here.",
-                "details": "We automate decisions with AI and make organizations intelligent."
+                "subtitle": "Exponential growth begins here.",
+                "description": "We automate decisions with AI and make organizations intelligent.",
+                "link": "Learn More"
             }
         ]
     },
@@ -100,20 +112,23 @@
             {
                 "id": "simplify",
                 "title": "Simplify",
-                "subtitle": "Without Reducing",
-                "description": "Complexity, No AI"
+                "subtitle": "There is no speed without reducing complexity.",
+                "description": "We simplify processes and clarify decision points.",
+                "link": "Learn More"
             },
             {
                 "id": "accelerate",
                 "title": "Accelerate",
-                "subtitle": "When Friction is Removed",
-                "description": "Speed Follows Naturally"
+                "subtitle": "When friction is removed, speed follows naturally.",
+                "description": "We accelerate decision flows and shorten feedback loops.",
+                "link": "Learn More"
             },
             {
                 "id": "intellify",
                 "title": "Smartify",
-                "subtitle": "Exponential Growth",
-                "description": "Begins Here"
+                "subtitle": "Exponential growth begins here.",
+                "description": "We automate decisions with AI and make organizations intelligent.",
+                "link": "Learn More"
             }
         ]
     },
@@ -121,12 +136,17 @@
         "hero": {
             "title": "Smartify",
             "subtitle": "Where Exponential Growth Begins",
-            "description": "After simplification and acceleration steps, we transform your organization into a learning, adaptive structure with AI.",
+            "description": "Simple and fast systems can now learn. This is where AI steps in.",
             "cta": "Back to Services"
+        },
+        "intro": {
+            "title": "Introduction",
+            "description": "Most organizations can grow up to a certain point. After that, speed slows down, decision quality declines, and scaling becomes difficult. This limit is the natural boundary of human capacity.",
+            "conclusion": "Smartification is how that boundary is overcome."
         },
         "purpose": {
             "title": "Purpose",
-            "text": "An intelligent organization that enables exponential growth."
+            "text": "To build an intelligent organization that can learn, scale, and sustain exponential growth."
         },
         "whatWeDo": {
             "title": "What We Do",
@@ -156,40 +176,54 @@
         },
         "approach": {
             "title": "The SimplifAI Approach",
-            "main": "We don't add AI. We design organizations where AI can operate with confidence.",
+            "main": "We do not simply add AI. We design organizations where AI can operate with confidence and trust.",
             "conclusion": "Smartification is the natural outcome of simplification and acceleration. When all three work together, true transformation begins."
         },
-        "methodology": {
-            "title": "SimplifAI Implementation Methodology",
-            "subtitle": "From Complexity to Exponential Performance",
-            "stages": [
+        "systems": {
+            "title": "A slow system cannot learn. A fast system can.",
+            "subtitle": "We now build structures that predict, suggest, and self-improve.",
+            "items": [
                 {
-                    "id": 1,
-                    "title": "START",
-                    "subtitle": "Clear definition of strategic goals and problems"
+                    "title": "Prediction Systems",
+                    "icon": "chart"
                 },
                 {
-                    "id": 2,
-                    "title": "BUILD",
-                    "subtitle": "Establishing process, data and decision architecture"
+                    "title": "Recommendation Systems",
+                    "icon": "lightbulb"
                 },
                 {
-                    "id": 3,
-                    "title": "PILOT",
-                    "subtitle": "Rapid pilot implementations in selected areas"
-                },
-                {
-                    "id": 4,
-                    "title": "TEST",
-                    "subtitle": "Performance, impact and scalability tests"
-                },
-                {
-                    "id": 5,
-                    "title": "SCALE",
-                    "subtitle": "Enterprise rollout and sustainable structure"
+                    "title": "Autonomous Systems",
+                    "icon": "robot"
                 }
             ],
-            "footer": "We're not building AI. We're building the organization where AI can scale."
-        }
+            "description": "AI supports people constructively, the organization continuously improves itself. Not radical: We build careful, disciplined AI."
+        },
+        "footer": {
+            "main": "Manage your predictions before they manage you.",
+            "button": "Let's Start Together"
+        },
+        "cards": [
+            {
+                "id": "simplify",
+                "title": "Simplify",
+                "subtitle": "There is no speed without reducing complexity.",
+                "description": "We simplify processes, clarify decision points, clean data and rule outliers.",
+                "link": "Learn More"
+            },
+            {
+                "id": "accelerate",
+                "title": "Accelerate",
+                "subtitle": "When friction is removed, speed follows naturally.",
+                "description": "We shorten decision times, reduce approval and waiting points, accelerate feedback loops.",
+                "link": "Learn More"
+            },
+            {
+                "id": "intellify",
+                "title": "Smartify",
+                "subtitle": "Exponential growth begins here.",
+                "description": "Accelerated systems can now learn. AI steps in at this point.",
+                "link": "Learn More"
+            }
+        ]
     }
 }

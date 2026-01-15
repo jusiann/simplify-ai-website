@@ -9,6 +9,7 @@ const Services = lazy(() => import('@/pages/Services'));
 const Simplify = lazy(() => import('@/pages/solutions/Simplify'));
 const Accelerate = lazy(() => import('@/pages/solutions/Accelerate'));
 const Intellify = lazy(() => import('@/pages/solutions/Intellify'));
+const Contact = lazy(() => import('@/pages/Contact'));
 
 // Loading component
 function PageLoader() {
@@ -73,6 +74,14 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback={<PageLoader />}>
             <Intellify />
+          </Suspense>
+        ),
+      },
+      {
+        path: 'contact',
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Contact />
           </Suspense>
         ),
       },

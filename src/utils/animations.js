@@ -1,9 +1,3 @@
-/**
- * Framer Motion animation variants for SimplifAI website
- * All animations use GPU-accelerated properties (transform, opacity) for performance
- */
-
-// Fade in from bottom
 export const fadeIn = {
     initial: {
         opacity: 0,
@@ -19,7 +13,7 @@ export const fadeIn = {
     },
 };
 
-// Fade in from left
+
 export const slideInLeft = {
     initial: {
         opacity: 0,
@@ -35,7 +29,7 @@ export const slideInLeft = {
     },
 };
 
-// Fade in from right
+
 export const slideInRight = {
     initial: {
         opacity: 0,
@@ -51,7 +45,7 @@ export const slideInRight = {
     },
 };
 
-// Scale up fade in
+
 export const scaleIn = {
     initial: {
         opacity: 0,
@@ -67,7 +61,7 @@ export const scaleIn = {
     },
 };
 
-// Container for staggered children animations
+
 export const staggerContainer = {
     initial: {},
     animate: {
@@ -78,7 +72,7 @@ export const staggerContainer = {
     },
 };
 
-// Individual stagger item
+
 export const staggerItem = {
     initial: {
         opacity: 0,
@@ -94,7 +88,7 @@ export const staggerItem = {
     },
 };
 
-// Hover scale effect for interactive elements
+
 export const scaleOnHover = {
     whileHover: {
         scale: 1.05,
@@ -108,13 +102,13 @@ export const scaleOnHover = {
     },
 };
 
-// Viewport animation settings
+
 export const viewportSettings = {
     once: true,
     amount: 0.3,
 };
 
-// Hero text animation with letter stagger
+
 export const heroTextVariants = {
     initial: {
         opacity: 0,
@@ -130,7 +124,7 @@ export const heroTextVariants = {
     },
 };
 
-// Card hover animation
+
 export const cardHover = {
     initial: {
         y: 0,
@@ -146,7 +140,7 @@ export const cardHover = {
     },
 };
 
-// Page transition
+
 export const pageTransition = {
     initial: {
         opacity: 0,

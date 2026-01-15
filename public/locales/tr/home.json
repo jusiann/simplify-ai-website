@@ -1,7 +1,7 @@
 {
     "hero": {
         "title": "Dijital inovasyonla işinizi yeniden tasarlayın",
-        "subtitle": "Önce süreçlerinizi sadeleştiririz.<br/>Sonra karar alma hızınızı artırırız.<br/>En sonunda yapay zekâ ile organizasyonunuzu akıllandırırız.<br/><br/>İşinizi karmaşık teknolojilerle değil,<br/>doğru sadeleşme, doğru hız ve doğru zekâ ile dönüştürürüz.",
+        "subtitle": "Önce süreçlerinizi sadeleştiririz. Sonra karar alma hızınızı artırırız. En sonunda yapay zekâ ile organizasyonunuzu akıllandırırız. İşinizi karmaşık teknolojilerle değil, doğru sadeleşme, doğru hız ve doğru zekâ ile dönüştürürüz.",
         "cta": "Hizmetlerimizi Keşfedin"
     },
     "approach": {
@@ -22,7 +22,7 @@
                 "link": "Daha Fazla"
             },
             {
-                "id": "smartify",
+                "id": "intellify",
                 "title": "Zekileştir",
                 "subtitle": "Yapay Zekâ ve Otomasyon",
                 "description": "Üstel büyüme burada başlar. Yapay zekâ ile kararları otomatikleştirir, organizasyonu öğrenen ve kendini geliştiren bir yapıya dönüştürürüz.",

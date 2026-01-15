@@ -5,26 +5,26 @@
   --color-primary: #1E6BB8;
   --color-primary-dark: #155a9c;
   --color-primary-light: #3d8fd4;
-  
+
   --color-secondary: #E67E22;
   --color-secondary-dark: #c96d1b;
   --color-secondary-light: #f39c4d;
-  
+
   --color-accent: #0A1628;
   --color-accent-light: #1a2d4a;
-  
+
   /* Background Colors */
   --color-background: #F8FAFC;
   --color-background-dark: #0A1628;
   --color-surface: #FFFFFF;
   --color-surface-hover: #F1F5F9;
-  
+
   /* Text Colors */
   --color-text-primary: #1F2937;
   --color-text-secondary: #6B7280;
   --color-text-light: #9CA3AF;
   --color-text-inverse: #FFFFFF;
-  
+
   /* Solution Card Colors */
   --color-simplify: #E6F4FA;
   --color-simplify-accent: #1E6BB8;
@@ -32,10 +32,10 @@
   --color-accelerate-accent: #E67E22;
   --color-smartify: #0A1628;
   --color-smartify-accent: #3d8fd4;
-  
+
   /* Fonts */
   --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  
+
   /* Shadows */
   --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-card-hover: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -64,17 +64,30 @@ body {
 /* Skip Link for Accessibility */
 .skip-link {
   position: absolute;
-  top: -40px;
-  left: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
   background: var(--color-primary);
   color: var(--color-text-inverse);
-  padding: 8px 16px;
   z-index: 100;
-  transition: top 0.3s;
 }
 
 .skip-link:focus {
+  position: fixed;
   top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: 8px 16px;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
 }
 
 /* Smooth Scrollbar */

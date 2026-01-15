@@ -1,0 +1,37 @@
+{
+    "hero": {
+        "title": "İletişime Geçin",
+        "subtitle": "Dönüşüm yolculuğunuzu birlikte tasarlayalım."
+    },
+    "info": {
+        "title": "Bize Ulaşın",
+        "description": "Dijital dönüşüm ve yapay zekâ çözümlerimiz hakkında bilgi almak için bizimle iletişime geçin.",
+        "email": {
+            "label": "E-posta"
+        },
+        "phone": {
+            "label": "Telefon"
+        },
+        "address": {
+            "label": "Adres"
+        }
+    },
+    "form": {
+        "name": "Ad Soyad",
+        "namePlaceholder": "Adınız ve soyadınız",
+        "email": "E-posta",
+        "emailPlaceholder": "ornek@sirket.com",
+        "company": "Şirket",
+        "companyPlaceholder": "Şirket adı (opsiyonel)",
+        "subject": "Konu",
+        "subjectPlaceholder": "Mesajınızın konusu",
+        "message": "Mesaj",
+        "messagePlaceholder": "Mesajınızı buraya yazın...",
+        "submit": "Gönder",
+        "sending": "Gönderiliyor...",
+        "success": {
+            "title": "Mesajınız Gönderildi!",
+            "message": "En kısa sürede sizinle iletişime geçeceğiz."
+        }
+    }
+}

@@ -1,28 +1,37 @@
 {
     "simplify": {
         "hero": {
-            "title": "Basitleştir",
-            "subtitle": "Basitleştir",
-            "description": "Karmaşıklığı azaltmadan yapay zekâ olmaz. Süreçleri sadeleştirir, veriyi temizler ve standartlaştırırız.",
+            "title": "Sadeleştir",
+            "subtitle": "Karmaşıklığı azaltmadan yapay zekâ olmaz.",
+            "description": "Önce süreçleri sistematik yöntemler ile sadeleştirmez, veri kural dışı noktalarını temizleriz. Sonra, ancak sonra, yapay zekâ akıllıca değer yaratabilir.",
             "cta": "Hizmetlere Geri Dön"
+        },
+        "intro": {
+            "title": "Giriş",
+            "problems": [
+                "Süreçler çok karmaşık.",
+                "Kararlar çok yavaş alınıyor.",
+                "Herkes çalışıyor ama sonuçlar gelmiyor."
+            ],
+            "cause": "Bu problemler teknoloji eksikliğinden değil, kontrolsüz karmaşıklıktan kaynaklanır. Yapay zekâdan önce çözülmesi gereken konu tam olarak budur."
         },
         "purpose": {
             "title": "Amaç",
-            "text": "Karmaşıklığı azaltmak, sürtünme noktalarını ortadan kaldırmak."
+            "text": "Karmaşıklığı azaltmak, gereksiz yükleri ve darboğazları ortadan kaldırmak."
         },
         "whatWeDo": {
             "title": "Ne Yaparız?",
             "items": [
-                "Süreç haritalama ve sadeleştirme",
-                "Gereksiz kural ve onay mekanizmalarının kaldırılması",
-                "Veri standartlarının oluşturulması"
+                "Süreçleri uçtan uca haritalar ve sadeleştiririz",
+                "Gereksiz kural, onay ve kontrol mekanizmalarını kaldırırız",
+                "Veriyi standartlaştırır, karar için hazır hale getiririz"
             ]
         },
         "impact": {
             "title": "Etki",
             "items": [
-                "İlk aşamada etki sınırlıdır (%5–10)",
-                "Ancak hızlanmanın önünü açar"
+                "İlk aşamada sınırlı kazanım sağlar (%5–10)",
+                "Ancak hızlanma ve zekâ için kritik zemini oluşturur"
             ]
         },
         "footer": {
@@ -33,21 +42,24 @@
         "cards": [
             {
                 "id": "simplify",
-                "title": "Basitleştir",
-                "description": "Karmaşıklığı azaltmadan yapay zekâ olmaz.",
-                "details": "Süreçleri sadeleştirir, veriyi temizler ve standartlaştırırız."
+                "title": "Sadeleştir",
+                "subtitle": "Karmaşıklığı azaltmadan yapay zekâ olmaz.",
+                "description": "Süreçleri sadeleştirir, veriyi temizler ve standartlaştırırız.",
+                "link": "Daha Fazla"
             },
             {
                 "id": "accelerate",
                 "title": "Hızlandır",
-                "description": "Sürtünme kalkınca hız kendiliğinden gelir.",
-                "details": "Karar akışlarını hızlandırır, geri bildirim döngülerini kısaltırız."
+                "subtitle": "Sürtünme kalkınca hız kendiliğinden gelir.",
+                "description": "Karar akışlarını hızlandırır, geri bildirim döngülerini kısaltırız.",
+                "link": "Daha Fazla"
             },
             {
                 "id": "intellify",
                 "title": "Zekileştir",
-                "description": "Üstel büyüme burada başlar.",
-                "details": "Yapay zekâ ile kararları otomatikleştirir, organizasyonu akıllandırırız."
+                "subtitle": "Üstel büyüme burada başlar.",
+                "description": "Yapay zekâ ile kararları otomatikleştirir, organizasyonu akıllandırırız.",
+                "link": "Daha Fazla"
             }
         ]
     },
@@ -97,49 +109,57 @@
         "cards": [
             {
                 "id": "simplify",
-                "title": "Basitleştir",
-                "subtitle": "Karmaşıklığı Azaltmadan",
-                "description": "Yapay Zekâ Olmaz"
+                "title": "Sadeleştir",
+                "subtitle": "Karmaşıklığı azaltmadan hız olmaz.",
+                "description": "Süreçleri sadeleştirir, karar noktalarını netleştiririz.",
+                "link": "Daha Fazla"
             },
             {
                 "id": "accelerate",
                 "title": "Hızlandır",
-                "subtitle": "Sürtünme Kalkınca",
-                "description": "Hız Kendiliğinden Gelir"
+                "subtitle": "Sürtünme kalkınca hız kendiliğinden gelir.",
+                "description": "Karar akışlarını hızlandırır, geri bildirim döngülerini kısaltırız.",
+                "link": "Daha Fazla"
             },
             {
                 "id": "intellify",
                 "title": "Zekileştir",
-                "subtitle": "Üstel Büyüme",
-                "description": "Burada Başlar"
+                "subtitle": "Üstel büyüme burada başlar.",
+                "description": "Yapay zekâ ile kararları otomatikleştirir, organizasyonu akıllandırırız.",
+                "link": "Daha Fazla"
             }
         ]
     },
     "smartify": {
         "hero": {
             "title": "Zekileştir",
-            "subtitle": "Zekileştir",
-            "description": "Üstel büyüme burada başlar. Yapay zekâ ile kararları otomatikleştirir, organizasyonu akıllandırırız.",
+            "subtitle": "Üstel büyümenin başladığı yer.",
+            "description": "Sade ve hızlı sistemler artık öğrenebilir. Yapay zekâ bu noktada devreye girer.",
             "cta": "Hizmetlere Geri Dön"
+        },
+        "intro": {
+            "title": "Giriş",
+            "description": "Çoğu organizasyon belirli bir noktaya kadar büyüyebilir. Bu noktadan sonra hız yavaşlar, karar kalitesi düşer, ölçeklenmek zorlaşır. Bu sınır, insan kapasitesinin doğal sınırıdır.",
+            "conclusion": "Zekileştirme, bu sınırın aşılma biçimidir."
         },
         "purpose": {
             "title": "Amaç",
-            "text": "Üstel büyümeyi mümkün kılan akıllı organizasyon."
+            "text": "Üstel büyümeyi mümkün kılan, kendi kendine öğrenen ve ölçeklenen akıllı bir organizasyon inşa etmek."
         },
         "whatWeDo": {
             "title": "Ne Yaparız?",
             "items": [
                 {
-                    "title": "Yapay zekâ destekli karar motorları",
-                    "description": ""
+                    "title": "Yapay Zekâ Destekli Karar Motorları",
+                    "description": "Kritik iş kararlarını; veri, kural ve öğrenen modellerle birlikte ele alırız. AI, yöneticinin yerini almaz; karar kalitesini ve tutarlılığını artırır."
                 },
                 {
-                    "title": "Otonom aksiyon sistemleri",
-                    "description": ""
+                    "title": "Otonom Aksiyon Sistemleri",
+                    "description": "Tekrar eden ve öngörülebilir kararlar otomatik aksiyonlara dönüşür. İnsanlar istisnalara, stratejiye ve yaratıcılığa odaklanır."
                 },
                 {
-                    "title": "Öğrenen organizasyon modelleri",
-                    "description": ""
+                    "title": "Öğrenen Organizasyon Modelleri",
+                    "description": "Her karar ve aksiyon sistem tarafından ölçülür, öğrenilir ve iyileştirilir. Organizasyon zamanla daha hızlı, daha isabetli ve daha dayanıklı hale gelir."
                 }
             ]
         },
@@ -147,45 +167,61 @@
             "title": "Etki",
             "items": [
                 "Üstel performans artışı",
-                "İnsan + AI birlikte çalışma modeli"
+                "İnsan + Yapay Zekâ birlikte çalışma modeli",
+                "Karar kalitesinde süreklilik",
+                "Ölçeklendikçe güçlenen organizasyon yapısı"
             ]
         },
         "approach": {
             "title": "SimplifAI Yaklaşımı",
-            "main": "Basitleştir. Hızlandır. Zekileştir.",
-            "conclusion": ""
+            "main": "Biz yapay zekâyı eklemiyoruz. Yapay zekânın güvenle çalışabileceği organizasyonu tasarlıyoruz.",
+            "conclusion": "Zekileştirme; sadeleştirme ve hızlandırma adımlarının doğal sonucudur. Bu üç adım birlikte çalıştığında, gerçek dönüşüm başlar."
         },
-        "methodology": {
-            "title": "SimplifAI Uygulama Metodolojisi",
-            "subtitle": "Karmaşıklıktan Üstel Performansa",
-            "stages": [
+        "systems": {
+            "title": "Yavaş bir sistem öğrenemez. Hızlı bir sistem öğrenebilir.",
+            "subtitle": "Artık tahmin eden, öneren ve kendi kendine iyileşen yapılar kurarız.",
+            "items": [
                 {
-                    "id": 1,
-                    "title": "Başlat",
-                    "subtitle": "Stratejik hedeflerin ve problemin net tanımı"
+                    "title": "Tahmin Sistemleri",
+                    "icon": "chart"
                 },
                 {
-                    "id": 2,
-                    "title": "İnşa Et",
-                    "subtitle": "Süreç, veri ve karar mimarisinin kurulması"
+                    "title": "Öneri Sistemleri",
+                    "icon": "lightbulb"
                 },
                 {
-                    "id": 3,
-                    "title": "Pilotla",
-                    "subtitle": "Seçili alanlarda hızlı pilot uygulamalar"
-                },
-                {
-                    "id": 4,
-                    "title": "Test Et",
-                    "subtitle": "Performans, etki ve ölçeklenebilirlik testleri"
-                },
-                {
-                    "id": 5,
-                    "title": "Ölçekle",
-                    "subtitle": "Kurumsal yayılım ve sürdürülebilir yapı"
+                    "title": "Otonom Sistemler",
+                    "icon": "robot"
                 }
             ],
-            "footer": ""
-        }
+            "description": "Yapay zekâ, insanları yapıcı biçimde destekler, organizasyon kendini sürekli geliştirir. Radikal değil: Temkinli, disiplinli AI inşa ederiz."
+        },
+        "footer": {
+            "main": "Öngörüleriniz sizi yönetmeden, siz onları yönetin.",
+            "button": "Birlikte Başlayalım"
+        },
+        "cards": [
+            {
+                "id": "simplify",
+                "title": "Sadeleştir",
+                "subtitle": "Karmaşıklığı azaltmadan hız olmaz.",
+                "description": "Süreçleri sadeleştirir, karar noktalarını netleştiririz, veri ve kural dışı sapmalı temizleriz.",
+                "link": "Daha Fazla"
+            },
+            {
+                "id": "accelerate",
+                "title": "Hızlandır",
+                "subtitle": "Sürtünme kalkınca hız kendiliğinden gelir.",
+                "description": "Karar alma sürelerini kısaltır, onay ve bekleme noktalarını azaltır, geri bildirim döngülerini hızlandırır.",
+                "link": "Daha Fazla"
+            },
+            {
+                "id": "intellify",
+                "title": "Zekileştir",
+                "subtitle": "Üstel büyüme burada başlar.",
+                "description": "Hızlanan sistemler artık öğrenebilir. Yapay zekâ, bu noktada devreye girer.",
+                "link": "Daha Fazla"
+            }
+        ]
     }
 }
